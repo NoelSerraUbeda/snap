@@ -1,16 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiUrl = "https://marvel-snap-api.p.rapidapi.com/api/get-all-cards";
-    const headers = {
-        "X-RapidAPI-Key": "f091184b64mshf6d6b77de993561p1058d0jsn25994fda40d2",
-        "X-RapidAPI-Host": "marvel-snap-api.p.rapidapi.com"
-    };
+    const snapJsonUrl = "js/snap.json";
 
     async function getAllCards() {
         try {
-            const response = await fetch(apiUrl, {
-                method: "GET",
-                headers: headers
-            });
+            const response = await fetch(snapJsonUrl);
 
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -43,6 +36,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 const description = document.createElement("p");
                 description.textContent = card.description;
                 cardDiv.appendChild(description);
+
+                const infoDiv = document.createElement("div");
+                infoDiv.classList.add("info");
+
+                const costPara = document.createElement("p");
+                costPara.textContent = "Coste: " + card.cost;
+                infoDiv.appendChild(costPara);
+
+                const powerPara = document.createElement("p");
+                powerPara.textContent = "Poder: " + card.power;
+                infoDiv.appendChild(powerPara);
+
+                cardDiv.appendChild(infoDiv);
 
                 cardContainer.appendChild(cardDiv);
             });

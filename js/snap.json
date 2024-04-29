@@ -158,17 +158,17 @@
         "name": "Baron Mordo",
         "description": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/165db38b-9eb8-46e3-26fd-3e93f6885000/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "3"
     },
     {
         "id": 19,
         "card_key": "baronzemo",
         "name": "Baron Zemo",
-        "description": "On Reveal: Recruit the lowest-Cost card from your opponents deck to your side of this location.",
+        "description": "On Reveal: Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/5d100368-684b-450d-8193-f6add325f100/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 20,
@@ -176,8 +176,8 @@
         "name": "Bast",
         "description": "On Reveal: Set the Power of all cards in your hand to 3.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/e0480a4d-6de1-4e2e-ae50-1e765aa3eb00/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "1"
     },
     {
         "id": 21,
@@ -185,8 +185,8 @@
         "name": "Beast",
         "description": "On Reveal: Return your other cards here to your hand. They cost 1 less next turn.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/1080a6e1-5264-48b9-e661-fdca7f8aba00/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "2"
     },
     {
         "id": 22,
@@ -194,8 +194,8 @@
         "name": "Beta Ray Bill",
         "description": "On Reveal: Shuffle Stormbreaker into your deck.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/dfce065a-6b98-4210-9431-0c453f912b00/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "6"
     },
     {
         "id": 23,
@@ -203,17 +203,17 @@
         "name": "Bishop",
         "description": "After you play a card, this gains +1 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/55028d64-ad89-4e46-a7ba-3919e5ad2800/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "1"
     },
     {
         "id": 24,
         "card_key": "blackbolt",
         "name": "Black Bolt",
-        "description": "On Reveal: Discard the lowest-cost card from your opponents hand.",
+        "description": "On Reveal: Discard the lowest-cost card from your opponent's hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/c63c133a-6d0d-4ad2-fbf2-7c102fbd6e00/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "7"
     },
     {
         "id": 25,
@@ -221,26 +221,26 @@
         "name": "Black Cat",
         "description": "If this is in your hand after the turn, discard it.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/470372f5-30f4-4b8a-454e-83b3c0b43200/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "9"
     },
     {
         "id": 26,
         "card_key": "blackknight",
         "name": "Black Knight",
-        "description": "After you discard a card, add the Ebony Blade to your hand with that cards Power. (once per game)",
+        "description": "After you discard a card, add the Ebony Blade to your hand with that card's Power. (once per game)",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/bd31aafc-4cf0-432c-2a56-8c4c5fb16400/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "2"
     },
     {
         "id": 27,
         "card_key": "blackpanther",
         "name": "Black Panther",
-        "description": "On Reveal: Double this cards Power.",
+        "description": "On Reveal: Double this card's Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/49f08dbf-e572-4fe2-2dd9-e0cce231d500/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "4"
     },
     {
         "id": 28,
@@ -248,17 +248,17 @@
         "name": "Black Swan",
         "description": "On Reveal: Until the end of next turn, your 1-Cost cards cost 0.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/536e241e-0929-4dc5-f14d-de15d9c87800/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 29,
         "card_key": "blackwidow",
         "name": "Black Widow",
-        "description": "On Reveal: Add a Widows Bite to your opponents hand.",
+        "description": "On Reveal: Add a Widow's Bite to your opponent's hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/5228095e-e5b7-4658-4f54-00e7c27ec200/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "3"
     },
     {
         "id": 30,
@@ -266,17 +266,17 @@
         "name": "Blade",
         "description": "On Reveal: Discard the rightmost card from your hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/620540d5-4fff-4857-a10c-dde035fca300/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "3"
     },
     {
         "id": 31,
         "card_key": "blob",
         "name": "Blob",
-        "description": "On Reveal: Merge cards from your deck into this until it gains 15 or more Power. Ongoing: Cant be moved.",
+        "description": "On Reveal: Merge cards from your deck into this until it gains 15 or more Power. Ongoing: Can't be moved.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/a60707ac-1211-4438-ff75-4eb543703a00/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "0"
     },
     {
         "id": 32,
@@ -284,8 +284,8 @@
         "name": "Blue Marvel",
         "description": "Ongoing: Your other cards have +1 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/7f4bd86b-a86a-4cc8-9965-f6bdb8a87200/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "3"
     },
     {
         "id": 33,
@@ -293,8 +293,8 @@
         "name": "Brood",
         "description": "On Reveal: Add 2 Broodlings here with the same Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/df53d6cf-d342-45ad-d534-cf75edb84700/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "2"
     },
     {
         "id": 34,
@@ -302,35 +302,35 @@
         "name": "Bucky Barnes",
         "description": "When this is destroyed, replace it with the Winter Soldier.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/375e60c7-a0f2-44e4-94f9-316e9d3ada00/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "1"
     },
     {
         "id": 35,
         "card_key": "cable",
         "name": "Cable",
-        "description": "On Reveal: Draw a card from your opponents deck.",
+        "description": "On Reveal: Draw a card from your opponent's deck.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/b7c48efc-ccd1-4086-313b-3baf959a8c00/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "3"
     },
     {
         "id": 36,
         "card_key": "caiera",
         "name": "Caiera",
-        "description": "Ongoing: Your 1 and 6-Cost cards cant be destroyed.",
+        "description": "Ongoing: Your 1 and 6-Cost cards can't be destroyed.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/1af5c6bb-ad16-46bc-90df-5aa9616f6e00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "2"
     },
     {
         "id": 37,
         "card_key": "cannonball",
         "name": "Cannonball",
-        "description": "On Reveal: Move the highest-Power enemy card here away. If you cant, destroy it with a Rock.",
+        "description": "On Reveal: Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/f7b8e573-6485-47a0-ad15-069c385af100/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "8"
     },
     {
         "id": 38,

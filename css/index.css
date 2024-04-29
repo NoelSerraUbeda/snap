@@ -1,9 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #29033a;
 }
 
+h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 126px;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #76249c;
+}
+
 .container {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

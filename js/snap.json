@@ -2407,6 +2407,8 @@
         "card_key": "zero",
         "name": "Zero",
         "description": "On Reveal: Remove the abilities on the next card you play.",
-        "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/b77f35c9-1d02-49f4-3125-81abb9e02200/public"
+        "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/b77f35c9-1d02-49f4-3125-81abb9e02200/public",
+        "cost": "",
+        "power": ""
     }
 ]

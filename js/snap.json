@@ -123,7 +123,7 @@
         "description": "When you discard this, put it back with +4 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/b3448003-d62e-4bfa-1d76-bb2d35fdfe00/public",
         "cost": "6",
-        "power": "8"
+        "power": "6"
     },
     {
         "id": 15,
@@ -321,7 +321,7 @@
         "description": "Ongoing: Your 1 and 6-Cost cards can't be destroyed.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/1af5c6bb-ad16-46bc-90df-5aa9616f6e00/public",
         "cost": "3",
-        "power": "2"
+        "power": "4"
     },
     {
         "id": 37,
@@ -338,8 +338,8 @@
         "name": "Captain America",
         "description": "Ongoing: Your other cards here have +1 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/aadfeb79-5a1e-4650-17d1-5f1f9242da00/public",
-        "cost": "",
-        "power": ""
+        "cost": 3,
+        "power": 3
     },
     {
         "id": 39,
@@ -347,8 +347,8 @@
         "name": "Captain Marvel",
         "description": "At the end of the game, move to a location that wins you the game. (If possible)",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/fba4f71e-289b-4370-04c1-fadcf3b9b500/public",
-        "cost": "",
-        "power": ""
+        "cost": 4,
+        "power": 5
     },
     {
         "id": 40,
@@ -356,8 +356,8 @@
         "name": "Carnage",
         "description": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/bde2f49a-4e76-4405-723e-013a042aea00/public",
-        "cost": "",
-        "power": ""
+        "cost": 2,
+        "power": 2
     },
     {
         "id": 41,
@@ -365,8 +365,8 @@
         "name": "Cerebro",
         "description": "Ongoing: Your highest-Power cards have +2 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/8244284e-e302-4743-dce6-70ca00928200/public",
-        "cost": "",
-        "power": ""
+        "cost": 3,
+        "power": 0
     },
     {
         "id": 42,
@@ -374,8 +374,8 @@
         "name": "Cloak",
         "description": "On Reveal: Next turn, both players can move cards to this location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/f090080b-7c6c-4f31-fa5c-4f7d5cd62700/public",
-        "cost": "",
-        "power": ""
+        "cost": 2,
+        "power": 4
     },
     {
         "id": 43,
@@ -383,8 +383,8 @@
         "name": "Colleen Wing",
         "description": "On Reveal: Discard the lowest-cost card from your hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/0f594c97-e22b-48f1-7453-a0840d0bc700/public",
-        "cost": "",
-        "power": ""
+        "cost": 2,
+        "power": 4
     },
     {
         "id": 44,
@@ -392,8 +392,8 @@
         "name": "Colossus",
         "description": "Ongoing: Cant be destroyed, moved, or have its Power reduced.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/6a96a927-fff1-4d5f-7282-d0e174d65200/public",
-        "cost": "",
-        "power": ""
+        "cost": 2,
+        "power": 3
     },
     {
         "id": 45,
@@ -401,8 +401,8 @@
         "name": "Corvus Glaive",
         "description": "On Reveal: Discard 2 cards from your hand to get +1 Max Energy.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/164f91f5-bb1a-4d62-eb39-c188416d6f00/public",
-        "cost": "",
-        "power": ""
+        "cost": 3,
+        "power": 5
     },
     {
         "id": 46,
@@ -410,8 +410,8 @@
         "name": "Cosmo",
         "description": "Ongoing: On Reveal abilities wont happen here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/61adc511-8ea4-4b89-92d7-1b67f45e1000/public",
-        "cost": "",
-        "power": ""
+        "cost": 3,
+        "power": 3
     },
     {
         "id": 47,
@@ -419,8 +419,8 @@
         "name": "Crossbones",
         "description": "You can only play this at locations where you are winning.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/35847f54-be9a-489e-304f-a90f17af8d00/public",
-        "cost": "",
-        "power": ""
+        "cost": 4,
+        "power": 10
     },
     {
         "id": 48,
@@ -428,8 +428,8 @@
         "name": "Crystal",
         "description": "On Reveal: Each player draws a card.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/7f74108c-bb3f-4c31-7cb9-dde3324bbe00/public",
-        "cost": "",
-        "power": ""
+        "cost": 3,
+        "power": 3
     },
     {
         "id": 49,
@@ -437,8 +437,8 @@
         "name": "Cull Obsidian",
         "description": "You can only play this where you have a 1-Cost card.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/67ba77c4-c858-42e2-890b-ca43a647db00/public",
-        "cost": "",
-        "power": ""
+        "cost": 4,
+        "power": 10
     },
     {
         "id": 50,
@@ -446,8 +446,8 @@
         "name": "Cyclops",
         "description": "Lets move, X-Men.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/fec235b8-7fef-47d8-29f1-c8eab7c21a00/public",
-        "cost": "",
-        "power": ""
+        "cost": 3,
+        "power": 4
     },
     {
         "id": 51,
@@ -455,8 +455,8 @@
         "name": "Dagger",
         "description": "When this moves to a location, +3 Power for each enemy card there.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/64b493c0-194f-444b-1135-b7d63df3e500/public",
-        "cost": "",
-        "power": ""
+        "cost": 2,
+        "power": 0
     },
     {
         "id": 52,

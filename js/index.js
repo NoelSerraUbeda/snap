@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "X-RapidAPI-Host": "marvel-snap-api.p.rapidapi.com"
     };
 
-    // Función para hacer la solicitud a la API
     async function getAllCards() {
         try {
             const response = await fetch(apiUrl, {
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Función para mostrar las cartas en el contenedor de tarjetas
     async function showCards() {
         const cardContainer = document.getElementById("cardContainer");
         const cards = await getAllCards();
@@ -51,6 +49,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Llamar a la función para mostrar todas las tarjetas cuando se cargue la página
     showCards();
 });

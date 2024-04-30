@@ -8,12 +8,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: auto;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
+
 
 h1 {
   color: white;
@@ -33,11 +30,18 @@ h1 {
   align-items: center;
   gap: 2rem;
   width: 90%;
+  height: 70vh;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 .card {
   width: 240px;
-  height: 360px;
+  height: 380px;
   border: 5px solid white;
   border-radius: 15px;
   margin: 10px;
@@ -69,8 +73,6 @@ h1 {
   margin-bottom: 5px;
   font-size: 26px;
   text-align: center;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
 }
 
 .card p {
@@ -78,6 +80,7 @@ h1 {
   text-align: center;
   overflow: hidden;
   margin: 0;
+  margin-bottom: 1rem;
 }
 
 .info {
@@ -90,7 +93,8 @@ h1 {
 }
 
 .info p {
-  font-size: 18px;
+  font-size: 26px;
+  margin: 0;
 }
 
 nav {
@@ -117,10 +121,13 @@ select {
   border: 3px solid white;
   border-radius: 10px;
   color: white;
-  width: fit-content;
-  height: 3rem;
-  font-size: 24px;
+  width: 8rem;
+  padding: 1rem;
+  appearance: none;
+  height: 4rem;
+  font-size: 28px;
   cursor: pointer;
+  text-align: center;
 }
 
 select option {
@@ -151,17 +158,18 @@ nav button:hover {
 
 .modal-content {
   margin: 5% auto;
-  width: 80%;
-  max-width: 600px;
-
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  height: 80%;
 }
 
 .modal img {
   display: block;
   margin: 0 auto;
-  max-width: 140%;
-  max-height: 80vh;
-
+  background-color: #76249c;
 }
 
 .modal-content {
@@ -187,7 +195,7 @@ nav button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .filterOff {

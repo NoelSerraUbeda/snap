@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const img = document.createElement("img");
                 img.src = card.art;
                 img.addEventListener("click", () => {
-                    modal.style.display = "block";
+                    modal.style.display = "flex";
                     modalImg.src = card.art;
                     disableScroll();
                 });
@@ -50,11 +50,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 infoDiv.classList.add("info");
 
                 const costPara = document.createElement("p");
-                costPara.textContent = "Coste: " + card.cost;
+                costPara.textContent = "Cost: " + card.cost;
                 infoDiv.appendChild(costPara);
 
                 const powerPara = document.createElement("p");
-                powerPara.textContent = "Poder: " + card.power;
+                powerPara.textContent = "Power: " + card.power;
                 infoDiv.appendChild(powerPara);
 
                 cardDiv.appendChild(infoDiv);
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (showByName && showByCost && showByPower) {
-                card.style.display = 'block';
+                card.style.display = 'flex';
             } else {
                 card.style.display = 'none';
             }
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
     clearFilterBtn.addEventListener('click', () => {
         const cards = document.querySelectorAll('.card');
         cards.forEach(card => {
-            card.style.display = 'block';
+            card.style.display = 'flex';
         });
 
         filterInput.value = '';

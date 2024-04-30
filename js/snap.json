@@ -464,8 +464,8 @@
         "name": "Daken",
         "description": "On Reveal: Add the Muramasa Shard to your hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/f5f82c2d-8fd2-4265-16f0-ea8d7dba7500/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "4"
     },
     {
         "id": 53,
@@ -473,8 +473,8 @@
         "name": "Daredevil",
         "description": "On turn 5, you get to see your opponents plays before you make your own.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/1a02d86d-2ac0-4221-c263-e57f965cb200/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "2"
     },
     {
         "id": 54,
@@ -482,8 +482,8 @@
         "name": "Darkhawk",
         "description": "Ongoing: +2 Power for each card in your opponents deck.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/9136238c-17bf-4992-9bbf-8f376c90df00/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "4"
     },
     {
         "id": 55,
@@ -491,8 +491,8 @@
         "name": "Dazzler",
         "description": "Ongoing: +2 Power for each location thats full on your side.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/453151ba-fd14-4db8-2db8-a3237d18af00/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "2"
     },
     {
         "id": 56,
@@ -500,8 +500,8 @@
         "name": "Deadpool",
         "description": "When this is destroyed, return it to your hand with double the Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/d74f2c35-d43d-4be8-4c81-52d9c3087700/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "1"
     },
     {
         "id": 57,
@@ -509,8 +509,8 @@
         "name": "Death",
         "description": "Costs 1 less for each card destroyed this game.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/e6655db1-f597-410b-8565-4884a48ec000/public",
-        "cost": "",
-        "power": ""
+        "cost": "8",
+        "power": "12"
     },
     {
         "id": 58,
@@ -518,8 +518,8 @@
         "name": "Deathlok",
         "description": "On Reveal: Destroy your other cards here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/8aac03f6-a68a-43c5-dd9f-18de33500900/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 59,
@@ -527,8 +527,8 @@
         "name": "Debrii",
         "description": "On Reveal: Add a Rock to each other location, for both players.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/c6509c39-2363-491b-e126-8aa336227100/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 60,
@@ -536,8 +536,8 @@
         "name": "Destroyer",
         "description": "On Reveal: Destroy your other cards.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/8b3d6e0a-5c82-479c-f84d-6f50c6bc1200/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "16"
     },
     {
         "id": 61,
@@ -545,8 +545,8 @@
         "name": "Devil Dinosaur",
         "description": "Ongoing: +2 Power for each card in your hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/d11d9bfe-29e9-42da-2f88-28b3de1e0900/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "3"
     },
     {
         "id": 62,
@@ -554,8 +554,8 @@
         "name": "Doctor Doom",
         "description": "On Reveal: Add a 5-Power DoomBot to each other location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/fd6ab108-6af9-43f6-342e-76c46819b400/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "5"
     },
     {
         "id": 63,
@@ -563,8 +563,8 @@
         "name": "Doctor Octopus",
         "description": "On Reveal: Pull 4 cards from your opponents hand to their side of this location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/55fbbcf2-bc25-4208-1f56-5e4c79572a00/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "10"
     },
     {
         "id": 64,
@@ -572,8 +572,8 @@
         "name": "Doctor Strange",
         "description": "On Reveal: Move your highest-Power card(s) to this location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/4236a795-9701-420c-aab0-5249f2992700/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "3"
     },
     {
         "id": 65,

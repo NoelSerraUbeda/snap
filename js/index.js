@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Deshabilitar el scroll
     function disableScroll() {
         scrollPosition = window.pageYOffset;
         body.style.overflow = 'hidden';
@@ -72,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
         body.style.top = `-${scrollPosition}px`;
     }
 
-    // Habilitar el scroll
     function enableScroll() {
         body.style.removeProperty('overflow');
         body.style.removeProperty('position');
@@ -80,12 +78,75 @@ document.addEventListener('DOMContentLoaded', () => {
         window.scrollTo(0, scrollPosition);
     }
 
-    // Cierra el modal cuando se hace clic en la "x" o fuera de la imagen
-    modal.addEventListener("click", function(event) {
+    modal.addEventListener("click", function (event) {
         if (event.target === modal || event.target.classList.contains("close")) {
             modal.style.display = "none";
             enableScroll();
         }
+    });
+
+    const filterInput = document.getElementById('filterInput');
+    filterInput.addEventListener('input', function () {
+        filterCards();
+    });
+
+    const costFilter = document.getElementById('costFilter');
+    const powerFilter = document.getElementById('powerFilter');
+
+    costFilter.addEventListener('change', () => {
+        filterCards();
+    });
+
+    powerFilter.addEventListener('change', () => {
+        filterCards();
+    });
+
+    function filterCards() {
+        const filterValue = filterInput.value.toLowerCase();
+        const selectedCost = costFilter.value;
+        const selectedPower = powerFilter.value;
+        const cards = document.querySelectorAll('.card');
+
+        cards.forEach(card => {
+            const name = card.querySelector('h3').textContent.toLowerCase();
+            const cardCost = parseInt(card.querySelector('.info p:nth-of-type(1)').textContent.split(":")[1].trim());
+            const cardPower = parseInt(card.querySelector('.info p:nth-of-type(2)').textContent.split(":")[1].trim());
+
+            const showByName = name.includes(filterValue);
+            let showByCost = true;
+            let showByPower = true;
+
+            if (selectedCost !== "all") {
+                const selectedCostNum = parseInt(selectedCost);
+                showByCost = (selectedCostNum === cardCost || (selectedCost === "+7" && cardCost >= 7));
+            }
+
+            if (selectedPower !== "all") {
+                const selectedPowerNum = parseInt(selectedPower);
+                showByPower = (selectedPowerNum === cardPower || (selectedPower === "+7" && cardPower >= 7));
+            }
+
+            if (showByName && showByCost && showByPower) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+
+    const clearFilterBtn = document.getElementById('clearFilterBtn');
+
+    clearFilterBtn.addEventListener('click', () => {
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.style.display = 'block';
+        });
+
+        filterInput.value = '';
+
+        costFilter.value = 'all';
+        powerFilter.value = 'all';
     });
 
     showCards();

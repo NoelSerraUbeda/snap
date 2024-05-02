@@ -10,43 +10,44 @@
 
 <body>
   <h1>Snap DataBase</h1>
-  <nav>
-    <select id="costFilter">
-      <option value="all">Cost</option>
-      <option value="0">0</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="+7">+7</option>
-    </select>
+  <div class="infobar">
+    <div class="search_bar">
+      <button class="filterOff" id="clearFilterBtn" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z" />
+        </svg>
+      </button>
+      <input class="searcher" type="text" id="filterInput" placeholder="Filtrar por nombre">
+    </div>
+    <nav>
+      <select id="costFilter">
+        <option value="all">Cost</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="+7">+7</option>
+      </select>
 
-    <select id="powerFilter">
-      <option value="all">Power</option>
-      <option value="0">0</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="+7">+7</option>
-    </select>
+      <select id="powerFilter">
+        <option value="all">Power</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="+7">+7</option>
+      </select>
 
-  </nav>
-  <div class="search_bar">
-    <button class="filterOff" id="clearFilterBtn" type="button">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <path
-          d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z" />
-      </svg>
-    </button>
-    <input class="searcher" type="text" id="filterInput" placeholder="Filtrar por nombre">
+    </nav>
   </div>
   <div class="container" id="cardContainer"></div>
-
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <div class="modal-content">

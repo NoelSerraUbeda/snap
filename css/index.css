@@ -8,9 +8,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: auto;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 
+.infobar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 0;
+}
 
 h1 {
   color: white;
@@ -28,19 +39,14 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  width: 90%;
+  gap: 0.5rem;
+  width: 100%;
   height: 70vh;
-  overflow: auto;
   padding: 1rem;
 }
 
-.container::-webkit-scrollbar {
-  display: none;
-}
-
 .card {
-  width: 240px;
+  width: 200px;
   height: 380px;
   border: 5px solid white;
   border-radius: 15px;
@@ -58,7 +64,7 @@ h1 {
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .card img {
@@ -93,7 +99,7 @@ h1 {
 }
 
 .info p {
-  font-size: 26px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -169,7 +175,6 @@ nav button:hover {
 .modal img {
   display: block;
   margin: 0 auto;
-  background-color: #76249c;
 }
 
 .modal-content {
@@ -195,7 +200,6 @@ nav button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.5rem;
 }
 
 .filterOff {

@@ -123,8 +123,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (selectedPower !== "all") {
                 const selectedPowerNum = parseInt(selectedPower);
-                showByPower = (selectedPowerNum === cardPower || (selectedPower === "+7" && cardPower >= 7));
+                if (selectedPower === "+7") {
+                    showByPower = cardPower >= 7; // Muestra las cartas con 7 o más de poder
+                } else if (selectedPower === "Negative") {
+                    showByPower = cardPower < 0; // Muestra las cartas con poder negativo
+                } else {
+                    showByPower = selectedPowerNum === cardPower; // Muestra las cartas con poder igual al seleccionado
+                }
             }
+
 
             if (showByName && showByCost && showByPower) {
                 card.style.display = 'flex';

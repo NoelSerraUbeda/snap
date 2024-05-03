@@ -581,8 +581,8 @@
         "name": "Domino",
         "description": "You always draw this card on turn 2, and not before.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/77593d9d-fe44-42b0-e434-8adca6a15900/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "3"
     },
     {
         "id": 66,
@@ -590,8 +590,8 @@
         "name": "Dracula",
         "description": "At the end of the game, discard a card from your hand to gain its Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/dd90d478-2710-4dce-5328-1052e77c9000/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "1"
     },
     {
         "id": 67,
@@ -599,8 +599,8 @@
         "name": "Drax",
         "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/d1003582-2a92-4342-8af5-b617c5006a00/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "5"
     },
     {
         "id": 68,
@@ -608,8 +608,8 @@
         "name": "Ebony Maw",
         "description": "You cant play this after turn 3. Ongoing: You cant play cards here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/7b6e95f9-5a26-4290-6ad5-76977c24a800/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "7"
     },
     {
         "id": 69,
@@ -617,8 +617,8 @@
         "name": "Echo",
         "description": "After your opponent plays an Ongoing card here, remove its abilities.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/a580feae-6d9a-478b-73b1-998274730900/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "2"
     },
     {
         "id": 70,
@@ -626,8 +626,8 @@
         "name": "Electro",
         "description": "On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/11dca765-2984-4c9e-6a1d-5180875e1b00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "2"
     },
     {
         "id": 71,
@@ -635,8 +635,8 @@
         "name": "Elektra",
         "description": "On Reveal: Destroy an enemy 1-Cost card here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/4b4cfb3f-9ae1-4418-19d8-a3d27d7a7a00/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "2"
     },
     {
         "id": 72,
@@ -644,8 +644,8 @@
         "name": "Elsa Bloodstone",
         "description": "Each card you play to fill your side of a location gains +2 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/46d55781-e80a-4e61-9f9a-b4bc6850dc00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 73,
@@ -653,8 +653,8 @@
         "name": "Enchantress",
         "description": "On Reveal: Remove the abilities from all Ongoing cards here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/ae272050-f8f0-443f-d7ee-e2a8f3c4ae00/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "5"
     },
     {
         "id": 74,
@@ -662,8 +662,8 @@
         "name": "Falcon",
         "description": "On Reveal: Return your 1-Cost cards to your hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/87b5f229-b93d-4c94-c41b-9f6ef030c000/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "3"
     },
     {
         "id": 75,
@@ -671,8 +671,8 @@
         "name": "Forge",
         "description": "On Reveal: Give the next card you play +2 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/a0e83c16-1d7b-43d9-26ea-a76175af0200/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "2"
     },
     {
         "id": 76,
@@ -680,8 +680,8 @@
         "name": "Galactus",
         "description": "On Reveal: If youre winning this location and this is your only card here, destroy all other locations.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/80ae7cea-fbe3-4ad9-1c3d-89ffa4538900/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "5"
     },
     {
         "id": 77,
@@ -689,8 +689,8 @@
         "name": "Gambit",
         "description": "On Reveal: Discard a card from your hand to destroy a random enemy card.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/76423eb5-6190-4189-922b-0bf8c9c02a00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 78,
@@ -698,8 +698,8 @@
         "name": "Gamora",
         "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/24f516c3-24e6-453c-f69f-c91f9a404200/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "8"
     },
     {
         "id": 79,
@@ -707,8 +707,8 @@
         "name": "Ghost",
         "description": "Ongoing: Your cards are always revealed last. (Their On Reveal abilities happen last.)",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/855c812a-fa0a-4c8b-9482-365a6d90bc00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 80,
@@ -716,8 +716,8 @@
         "name": "Ghost Rider",
         "description": "On Reveal: Bring back one of your discarded cards to this location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/e7eb00a0-0ff8-4f57-5e0f-8e60097c7700/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "3"
     },
     {
         "id": 81,
@@ -725,8 +725,8 @@
         "name": "Ghost-Spider",
         "description": "On Reveal: The last card you played moves here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/bd188480-31cb-48ea-f4c5-b03c08d1cf00/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "2"
     },
     {
         "id": 82,
@@ -734,8 +734,8 @@
         "name": "Giganto",
         "description": "You can only play this at the left location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/a7a07b43-e397-4cc2-cea3-734650cf1e00/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "14"
     },
     {
         "id": 83,
@@ -743,8 +743,8 @@
         "name": "Gladiator",
         "description": "On Reveal: Add a card from your opponents deck to their side of this location. If it has less Power, destroy it.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/5c2e5438-b204-476e-d21a-b845ec5c0c00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "8"
     },
     {
         "id": 84,
@@ -752,8 +752,8 @@
         "name": "Goose",
         "description": "Ongoing: Nobody can play cards that cost 4, 5, or 6 here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/338087f6-64fb-41ba-f8e8-6ebe76a54c00/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "2"
     },
     {
         "id": 85,
@@ -761,8 +761,8 @@
         "name": "Grand Master",
         "description": "On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/7aec7624-9bbc-405d-6a7c-a9f81cec8900/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "0"
     },
     {
         "id": 86,
@@ -1337,8 +1337,8 @@
         "name": "Mister Negative",
         "description": "On Reveal: Swap the Power and Cost of all cards in your deck.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/954a6be6-3eaf-46be-f936-6ac048ef1a00/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "-1"
     },
     {
         "id": 150,
@@ -1868,8 +1868,8 @@
         "name": "Shadow King",
         "description": "On Reveal: Set all cards here to their base Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/e4dc43e4-5c75-403c-07f5-9cf0d5b9ce00/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "2"
     },
     {
         "id": 209,
@@ -1877,8 +1877,8 @@
         "name": "Shang-Chi",
         "description": "On Reveal: Destroy all enemy cards here that have 10 or more Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/ac48b938-9098-4730-f26a-c8df1573b600/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "3"
     },
     {
         "id": 210,
@@ -1886,8 +1886,8 @@
         "name": "Shanna",
         "description": "On Reveal: Add a random 1-Cost card to each location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/d88d3f4e-04ab-4eab-b24e-212e11bfde00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "2"
     },
     {
         "id": 211,
@@ -1895,8 +1895,8 @@
         "name": "She-Hulk",
         "description": "Costs 1 less for each unspent Energy last turn.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/f93e77b9-a821-43be-f3c3-83f2380bd100/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "10"
     },
     {
         "id": 212,
@@ -1904,8 +1904,8 @@
         "name": "Shocker",
         "description": "Im gonna blast you!",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/0367c30b-6685-471a-5417-120def98aa00/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "3"
     },
     {
         "id": 213,
@@ -1913,8 +1913,8 @@
         "name": "Shuri",
         "description": "On Reveal: If you play your next card at this location, double its Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/97dacaca-c7cf-49c7-88cd-095ec5248900/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "1"
     },
     {
         "id": 214,
@@ -1922,8 +1922,8 @@
         "name": "Silk",
         "description": "After ANY card is played here, this moves to another location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/fcee9f44-56ae-436d-527c-b977dda2d300/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "5"
     },
     {
         "id": 215,
@@ -1931,8 +1931,8 @@
         "name": "Silver Samurai",
         "description": "On Reveal: Each player discards the lowest-Power card from their hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/8132a0f4-9ed7-4a3a-d3ef-c2bc781cfe00/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "5"
     },
     {
         "id": 216,
@@ -1940,8 +1940,8 @@
         "name": "Silver Surfer",
         "description": "On Reveal: Give your other 3-Cost cards +2 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/aa9b812f-f631-4091-4c99-7e9b42948e00/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "2"
     },
     {
         "id": 217,
@@ -1949,8 +1949,8 @@
         "name": "Skaar",
         "description": "Costs 2 less for each of your cards that has 10 or more Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/8cdc642e-853c-4ff9-4837-d9db09d65500/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "11"
     },
     {
         "id": 218,
@@ -1958,8 +1958,8 @@
         "name": "Snowguard",
         "description": "On Reveal: Add the Hawk and Bear auroras to your hand.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/c1f6aa19-cbaa-4cd1-ec75-e72dd0e08300/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "2"
     },
     {
         "id": 219,
@@ -1967,8 +1967,8 @@
         "name": "Spectrum",
         "description": "On Reveal: Give your Ongoing cards +2 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/8fcc137e-0136-4cdc-942b-c7576143b200/public",
-        "cost": "",
-        "power": ""
+        "cost": "6",
+        "power": "7"
     },
     {
         "id": 220,
@@ -1976,8 +1976,8 @@
         "name": "Spider-Ham",
         "description": "On Reveal: Transform the leftmost card in your opponents hand into a Pig, keeping its Power and Cost.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/eab12226-3763-4fb0-72d7-b9921f2cce00/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "1"
     },
     {
         "id": 221,
@@ -1985,8 +1985,8 @@
         "name": "Spider-Man",
         "description": "On Reveal: Move to another location and pull an enemy card from here to there.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/487043c7-1785-4928-fb03-6d58262fd600/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 222,
@@ -1994,8 +1994,8 @@
         "name": "Spider-Man 2099",
         "description": "The first time this moves to any location, destroy an enemy card there.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/f2395307-c46f-4c41-5ea1-e1170f973300/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "9"
     },
     {
         "id": 223,
@@ -2003,8 +2003,8 @@
         "name": "Spider-Woman",
         "description": "On Reveal: Afflict all enemy cards here with -1 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/d6b8a0b5-c7ce-466a-00b2-e5916b0cc700/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "8"
     },
     {
         "id": 224,
@@ -2012,8 +2012,8 @@
         "name": "Squirrel Girl",
         "description": "On Reveal: Add a 1-Power Squirrel to each other location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/bdee802f-bf20-4ff2-cfad-21b11aff2f00/public",
-        "cost": "",
-        "power": ""
+        "cost": "1",
+        "power": "2"
     },
     {
         "id": 225,
@@ -2021,8 +2021,8 @@
         "name": "Star-Lord",
         "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/d1ea43b5-a9a4-4be0-c74e-e2f28ae5b400/public",
-        "cost": "",
-        "power": ""
+        "cost": "2",
+        "power": "2"
     },
     {
         "id": 226,
@@ -2030,8 +2030,8 @@
         "name": "Stature",
         "description": "Costs 1 if your opponent discarded a card this game.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/3d09f806-152e-4c25-0526-037e17b13000/public",
-        "cost": "",
-        "power": ""
+        "cost": "5",
+        "power": "7"
     },
     {
         "id": 227,
@@ -2039,8 +2039,8 @@
         "name": "Stegron",
         "description": "On Reveal: Move an enemy card from here to another location.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/eec84818-bf5f-4736-9b93-62b76602ea00/public",
-        "cost": "",
-        "power": ""
+        "cost": "4",
+        "power": "6"
     },
     {
         "id": 228,
@@ -2048,8 +2048,8 @@
         "name": "Storm",
         "description": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/13f3773b-0448-47de-e6ee-1b1d03962900/public",
-        "cost": "",
-        "power": ""
+        "cost": "3",
+        "power": "2"
     },
     {
         "id": 229,

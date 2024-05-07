@@ -2223,6 +2223,15 @@
         "power": "8"
     },
     {
+        "id": 269,
+        "card_key": "valentina",
+        "name": "Valentina",
+        "description": "On Reveal: Add a random 6-Cost card to your hand. Give it -2 Cost and -3 Power.",
+        "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/367263d8-69be-4210-c96a-f0b4db107500/public",
+        "cost": "2",
+        "power": "3"
+    },
+    {
         "id": 248,
         "card_key": "valkyrie",
         "name": "Valkyrie",

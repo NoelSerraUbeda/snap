@@ -690,7 +690,7 @@
         "description": "On Reveal: Discard a card from your hand to destroy a random enemy card.",
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/76423eb5-6190-4189-922b-0bf8c9c02a00/public",
         "cost": "3",
-        "power": "5"
+        "power": "3"
     },
     {
         "id": 78,

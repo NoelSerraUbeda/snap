@@ -270,6 +270,15 @@
         "power": "3"
     },
     {
+        "id": 270,
+        "card_key": "blink",
+        "name": "Blink",
+        "description": "On Reveal: Swap the last card you played with a higher-Cost card from your deck.",
+        "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/01977505-2c63-4a5d-543a-5cf3169bf400/public",
+        "cost": "5",
+        "power": "7"
+    },
+    {
         "id": 31,
         "card_key": "blob",
         "name": "Blob",
@@ -1528,6 +1537,15 @@
         "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/c86d07b2-9548-4252-f831-28d0a8d62300/public",
         "cost": "",
         "power": ""
+    },
+    {
+        "id": 171,
+        "card_key": "nocturne",
+        "name": "Nocturne",
+        "description": "You can move this once. When this moves, replace its location with a random new one.",
+        "art": "https://imagedelivery.net/WeUSpTTnN6p7LLSToV3zTA/4fe26eef-8972-48c2-58a4-fbf1658f2100/public",
+        "cost": "3",
+        "power": "5"
     },
     {
         "id": 171,

@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const snapJsonUrl = "js/snap.json";
-    const modal = document.getElementById("myModal");
-    const modalImg = document.getElementById("modalImg");
-    const body = document.body;
-    let scrollPosition = 0;
 
     async function getAllCards() {
         try {
@@ -31,11 +27,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const img = document.createElement("img");
                 img.src = card.art;
+                let currentVariantIndex = -1; // Track current image index (-1 means the original art)
+
+                // Dynamically create an array of variants
+                const variants = [];
+                if (card.variant1) variants.push(card.variant1);
+                if (card.variant2) variants.push(card.variant2);
+                if (card.variant3) variants.push(card.variant3);
+                if (card.variant4) variants.push(card.variant4);
+                // Add more if needed
+
                 img.addEventListener("click", () => {
-                    modal.style.display = "flex";
-                    modalImg.src = card.art;
-                    disableScroll();
+                    currentVariantIndex++;
+                    if (currentVariantIndex >= variants.length) {
+                        img.src = card.art;
+                        currentVariantIndex = -1;
+                    } else {
+                        img.src = variants[currentVariantIndex];
+                    }
                 });
+
                 cardDiv.appendChild(img);
 
                 const name = document.createElement("h3");
@@ -63,27 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
-
-    function disableScroll() {
-        scrollPosition = window.pageYOffset;
-        body.style.overflow = 'hidden';
-        body.style.position = 'fixed';
-        body.style.top = `-${scrollPosition}px`;
-    }
-
-    function enableScroll() {
-        body.style.removeProperty('overflow');
-        body.style.removeProperty('position');
-        body.style.removeProperty('top');
-        window.scrollTo(0, scrollPosition);
-    }
-
-    modal.addEventListener("click", function (event) {
-        if (event.target === modal || event.target.classList.contains("close")) {
-            modal.style.display = "none";
-            enableScroll();
-        }
-    });
 
     const filterInput = document.getElementById('filterInput');
     filterInput.addEventListener('input', function () {
@@ -132,7 +122,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-
             if (showByName && showByCost && showByPower) {
                 card.style.display = 'flex';
             } else {
@@ -140,7 +129,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-
 
     const clearFilterBtn = document.getElementById('clearFilterBtn');
 

@@ -107,7 +107,7 @@
         "card_key": "angel",
         "name": "Angel",
         "description": "When one of your cards is destroyed, this flies out of your hand or deck to replace it.",
-        "art": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angel.webp?v=203",
         "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/9_16619650513.webp?v=203",
         "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/9_09.webp?v=203",
         "cost": "1",
@@ -118,7 +118,7 @@
         "card_key": "angela",
         "name": "Angela",
         "description": "After you play a card here, +2 Power.",
-        "art": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angela.webp?v=203",
         "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/10_166196505236.webp?v=203",
         "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/10_06.webp?v=203",
         "variant3": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/10_10.webp?v=203",
@@ -142,9 +142,9 @@
         "card_key": "antman",
         "name": "Ant Man",
         "description": "Ongoing: If your side of this location is full, +4 Power.",
-        "art": "",
-        "variant1": "",
-        "variant2": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ant-man.webp?v=203",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/407_11.webp?v=203",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/407_08.webp?v=203",
         "cost": "1",
         "power": "1"
     },
@@ -153,9 +153,9 @@
         "card_key": "apocalypse",
         "name": "Apocalypse",
         "description": "When you discard this, put it back with +4 Power.",
-        "art": "",
-        "variant1": "",
-        "variant2": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/apocalypse.webp?v=203",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/12_16619650557.webp?v=203",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/12_166196505516.webp?v=203",
         "cost": "6",
         "power": "6"
     },
@@ -164,9 +164,10 @@
         "card_key": "armor",
         "name": "Armor",
         "description": "Ongoing: Cards here cant be destroyed.",
-        "art": "",
-        "variant1": "",
-        "variant2": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/armor.webp?v=203",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/13_166196505652.webp?v=203",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/13_08.webp?v=203",
+        "variant3": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/13_07.webp?v=203",
         "cost": "2",
         "power": "3"
     },
@@ -175,9 +176,9 @@
         "card_key": "arnimzola",
         "name": "Arnim Zola",
         "description": "On Reveal: Destroy one of your other cards here to copy it at the other locations.",
-        "art": "",
-        "variant1": "",
-        "variant2": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/arnim-zola.webp?v=203",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/14_166196505850.webp?v=203",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/14_06.webp?v=203",
         "cost": "6",
         "power": "0"
     },
@@ -186,9 +187,9 @@
         "card_key": "attuma",
         "name": "Attuma",
         "description": "After each turn, destroy this if you have another card here.",
-        "art": "",
-        "variant1": "",
-        "variant2": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/attuma.webp?v=203",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/379_04.webp?v=203",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/379_1666702337.webp?v=203",
         "cost": "4",
         "power": "10"
     },
@@ -197,9 +198,9 @@
         "card_key": "baronmordo",
         "name": "Baron Mordo",
         "description": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
-        "art": "",
-        "variant1": "",
-        "variant2": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/baron-mordo.webp?v=203",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/18_04.webp?v=203",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/18_166196505999.webp?v=203",
         "cost": "2",
         "power": "3"
     },
@@ -208,9 +209,9 @@
         "card_key": "baronzemo",
         "name": "Baron Zemo",
         "description": "On Reveal: Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
-        "art": "",
-        "variant1": "",
-        "variant2": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/baron-zemo.webp?v=203",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/519_07.webp?v=203",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/519_08.webp?v=203",
         "cost": "3",
         "power": "5"
     },
@@ -219,7 +220,9 @@
         "card_key": "bast",
         "name": "Bast",
         "description": "On Reveal: Set the Power of all cards in your hand to 3.",
-        "art": "",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/bast.webp?v=203",
+        "variant1": "",
+        "variant2": "",
         "cost": "1",
         "power": "1"
     },
@@ -229,6 +232,8 @@
         "name": "Beast",
         "description": "On Reveal: Return your other cards here to your hand. They cost 1 less next turn.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "2",
         "power": "2"
     },
@@ -238,6 +243,8 @@
         "name": "Beta Ray Bill",
         "description": "On Reveal: Shuffle Stormbreaker into your deck.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "4",
         "power": "6"
     },
@@ -247,6 +254,8 @@
         "name": "Bishop",
         "description": "After you play a card, this gains +1 Power.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "3",
         "power": "1"
     },
@@ -256,6 +265,8 @@
         "name": "Black Bolt",
         "description": "On Reveal: Discard the lowest-cost card from your opponent's hand.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "5",
         "power": "7"
     },
@@ -265,6 +276,8 @@
         "name": "Black Cat",
         "description": "If this is in your hand after the turn, discard it.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "4",
         "power": "9"
     },
@@ -274,6 +287,8 @@
         "name": "Black Knight",
         "description": "After you discard a card, add the Ebony Blade to your hand with that card's Power. (once per game)",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "1",
         "power": "2"
     },
@@ -283,6 +298,8 @@
         "name": "Black Panther",
         "description": "On Reveal: Double this card's Power.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "5",
         "power": "4"
     },
@@ -292,6 +309,8 @@
         "name": "Black Swan",
         "description": "On Reveal: Until the end of next turn, your 1-Cost cards cost 0.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "3",
         "power": "5"
     },
@@ -301,6 +320,8 @@
         "name": "Black Widow",
         "description": "On Reveal: Add a Widow's Bite to your opponent's hand.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "3",
         "power": "3"
     },
@@ -310,6 +331,8 @@
         "name": "Blade",
         "description": "On Reveal: Discard the rightmost card from your hand.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "1",
         "power": "3"
     },
@@ -319,6 +342,8 @@
         "name": "Blink",
         "description": "On Reveal: Swap the last card you played with a higher-Cost card from your deck.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "5",
         "power": "7"
     },
@@ -328,6 +353,8 @@
         "name": "Blob",
         "description": "On Reveal: Merge cards from your deck into this until it gains 15 or more Power. Ongoing: Can't be moved.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "6",
         "power": "0"
     },
@@ -337,6 +364,8 @@
         "name": "Blue Marvel",
         "description": "Ongoing: Your other cards have +1 Power.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "5",
         "power": "3"
     },
@@ -346,6 +375,8 @@
         "name": "Brood",
         "description": "On Reveal: Add 2 Broodlings here with the same Power.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "3",
         "power": "2"
     },
@@ -355,6 +386,8 @@
         "name": "Bucky Barnes",
         "description": "When this is destroyed, replace it with the Winter Soldier.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "2",
         "power": "1"
     },
@@ -364,6 +397,8 @@
         "name": "Cable",
         "description": "On Reveal: Draw a card from your opponent's deck.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "2",
         "power": "3"
     },
@@ -373,6 +408,8 @@
         "name": "Caiera",
         "description": "Ongoing: Your 1 and 6-Cost cards can't be destroyed.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "3",
         "power": "4"
     },
@@ -382,6 +419,8 @@
         "name": "Cannonball",
         "description": "On Reveal: Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "5",
         "power": "8"
     },
@@ -391,6 +430,8 @@
         "name": "Captain America",
         "description": "Ongoing: Your other cards here have +1 Power.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 3,
         "power": 3
     },
@@ -400,6 +441,8 @@
         "name": "Captain Marvel",
         "description": "At the end of the game, move to a location that wins you the game. (If possible)",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 4,
         "power": 5
     },
@@ -409,6 +452,8 @@
         "name": "Carnage",
         "description": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 2,
         "power": 2
     },
@@ -418,6 +463,8 @@
         "name": "Cerebro",
         "description": "Ongoing: Your highest-Power cards have +2 Power.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 3,
         "power": 0
     },
@@ -427,6 +474,8 @@
         "name": "Cloak",
         "description": "On Reveal: Next turn, both players can move cards to this location.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 2,
         "power": 4
     },
@@ -436,6 +485,8 @@
         "name": "Colleen Wing",
         "description": "On Reveal: Discard the lowest-cost card from your hand.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 2,
         "power": 4
     },
@@ -445,6 +496,8 @@
         "name": "Colossus",
         "description": "Ongoing: Cant be destroyed, moved, or have its Power reduced.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 2,
         "power": 3
     },
@@ -454,6 +507,8 @@
         "name": "Corvus Glaive",
         "description": "On Reveal: Discard 2 cards from your hand to get +1 Max Energy.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 3,
         "power": 5
     },
@@ -463,6 +518,8 @@
         "name": "Cosmo",
         "description": "Ongoing: On Reveal abilities wont happen here.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 3,
         "power": 3
     },
@@ -472,6 +529,8 @@
         "name": "Crossbones",
         "description": "You can only play this at locations where you are winning.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 4,
         "power": 10
     },
@@ -481,6 +540,8 @@
         "name": "Crystal",
         "description": "On Reveal: Each player draws a card.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 3,
         "power": 3
     },
@@ -490,6 +551,8 @@
         "name": "Cull Obsidian",
         "description": "You can only play this where you have a 1-Cost card.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 4,
         "power": 10
     },
@@ -499,6 +562,8 @@
         "name": "Cyclops",
         "description": "Lets move, X-Men.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 3,
         "power": 4
     },
@@ -508,6 +573,8 @@
         "name": "Dagger",
         "description": "When this moves to a location, +3 Power for each enemy card there.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": 2,
         "power": 0
     },
@@ -517,6 +584,8 @@
         "name": "Daken",
         "description": "On Reveal: Add the Muramasa Shard to your hand.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "3",
         "power": "4"
     },
@@ -526,6 +595,8 @@
         "name": "Daredevil",
         "description": "On turn 5, you get to see your opponents plays before you make your own.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "2",
         "power": "2"
     },
@@ -535,6 +606,8 @@
         "name": "Darkhawk",
         "description": "Ongoing: +2 Power for each card in your opponents deck.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "5",
         "power": "4"
     },
@@ -544,6 +617,8 @@
         "name": "Dazzler",
         "description": "Ongoing: +2 Power for each location thats full on your side.",
         "art": "",
+        "variant1": "",
+        "variant2": "",
         "cost": "2",
         "power": "2"
     },

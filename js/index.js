@@ -92,11 +92,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const modalImg = document.getElementById("modalImg");
         modal.style.display = "block";
         modalImg.src = imageUrl;
+        document.body.classList.add("no-scroll");
     }
 
     function closeModal() {
         const modal = document.getElementById("myModal");
         modal.style.display = "none";
+        document.body.classList.remove("no-scroll");
     }
 
     // Get the modal element

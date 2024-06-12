@@ -158,8 +158,9 @@ nav button:hover {
 }
 
 .modal-img {
-  max-width: 100%;
+  max-width: 55rem;
   height: auto;
+  z-index: 10;
 }
 
 .modal {
@@ -182,6 +183,7 @@ nav button:hover {
   font-size: 35px;
   font-weight: bold;
   cursor: pointer;
+  z-index: 15;
 }
 
 
@@ -230,8 +232,10 @@ button svg {
   position: absolute;
   right: 30px;
   bottom:170px;
-  z-index: 999;
   transition: all 0,3s;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
 

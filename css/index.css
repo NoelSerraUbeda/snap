@@ -61,6 +61,7 @@ h1 {
   color: white;
   transition: all 0.3s;
   cursor: pointer;
+  position: relative;
 }
 
 .card:hover {
@@ -148,34 +149,41 @@ nav button:hover {
   transform: scale(1.1);
 }
 
+.modal-content {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-img {
+  max-width: 100%;
+  height: auto;
+}
+
 .modal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.7);
-  overflow: hidden;
-  cursor: default;
+  background-color: rgba(0,0,0,0.4);
 }
 
-.modal-content {
-  margin: 5% auto;
-  background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 0px;
-  height: 80%;
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.modal img {
-  display: block;
-  margin: 0 auto;
-}
 
 .modal-content {
   cursor: default;
@@ -217,4 +225,13 @@ nav button:hover {
 button svg {
   fill: white;
 }
+
+.magnify-container {
+  position: absolute;
+  right: 30px;
+  bottom:170px;
+  z-index: 999;
+  transition: all 0,3s;
+}
+
 

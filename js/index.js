@@ -70,8 +70,50 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 cardDiv.appendChild(infoDiv);
 
+                // Create the magnifying glass icon
+                const magnifyIcon = document.createElement("div");
+                magnifyIcon.innerHTML = `<svg width="50" height="50" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.4336 17.7336L18.7871 17.38L18.4336 17.0264L13.1017 11.6946C13.9812 10.5298 14.5 9.07527 14.5 7.5C14.5 3.63386 11.3661 0.5 7.5 0.5C3.63386 0.5 0.5 3.63386 0.5 7.5C0.5 11.3661 3.63386 14.5 7.5 14.5C9.06648 14.5 10.5194 13.9811 11.6831 13.1102L17.0164 18.4436L17.37 18.7971L17.7236 18.4436L18.4336 17.7336ZM2.5 7.5C2.5 4.73614 4.73614 2.5 7.5 2.5C10.2639 2.5 12.5 4.73614 12.5 7.5C12.5 10.2639 10.2639 12.5 7.5 12.5C4.73614 12.5 2.5 10.2639 2.5 7.5Z" fill="white" stroke="white"/></svg>`;
+                magnifyIcon.classList.add("magnify-container");
+
+                magnifyIcon.addEventListener("click", () => {
+                    const currentImageUrl = img.src;
+                    showModal(currentImageUrl);
+                });
+
+                cardDiv.appendChild(magnifyIcon);
+
                 cardContainer.appendChild(cardDiv);
             });
+        }
+    }
+
+    function showModal(imageUrl) {
+        const modal = document.getElementById("myModal");
+        const modalImg = document.getElementById("modalImg");
+        modal.style.display = "block";
+        modalImg.src = imageUrl;
+    }
+
+    function closeModal() {
+        const modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
+
+    // Get the modal element
+    const modal = document.getElementById("myModal");
+
+    // Get the <span> element that closes the modal
+    const span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        closeModal();
+    }
+
+    // When the user clicks anywhere outside of the modal content, close the modal
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            closeModal();
         }
     }
 

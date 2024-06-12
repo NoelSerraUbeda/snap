@@ -180,7 +180,7 @@ nav button:hover {
   top: 10px;
   right: 25px;
   color: #fff;
-  font-size: 35px;
+  font-size: 65px;
   font-weight: bold;
   cursor: pointer;
   z-index: 15;
@@ -235,7 +235,51 @@ button svg {
   transition: all 0,3s;
 }
 
+.magnify-container svg{
+  width: 3rem;
+  fill:#29033a;
+}
+
 .no-scroll {
   overflow: hidden;
 }
+
+@media only screen and (max-width: 412px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 0.5rem;
+    width: 100%;
+    height: 70vh;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 140px;
+    height: 350px;
+  }
+
+  .card p{
+    display: none;
+  }
+
+  .card h3{
+    font-size: 20px;
+  }
+
+  .magnify-container {
+    position: absolute;
+    right: 20px;
+    bottom:180px;
+    transition: all 0,3s;
+  }
+  
+  .magnify-container svg{
+    width: 2.5rem;
+  }
+}
+
 

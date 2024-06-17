@@ -2427,6 +2427,17 @@
         "power": "4"
     },
     {
+        "id": 276,
+        "card_key": "sersi",
+        "name": "Sersi",
+        "description": "On Reveal: Transform your other cards here into random cards that cost 1 more. (if able)",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sersi.webp?v=205",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/536_06.webp?v=205",
+        "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/536_07.webp?v=205",
+        "cost": "5",
+        "power": "7"
+    },
+    {
         "id": 208,
         "card_key": "shadowking",
         "name": "Shadow King",

@@ -961,6 +961,16 @@
         "power": "14"
     },
     {
+        "id": 277,
+        "card_key": "gilgamesh",
+        "name": "Gilgamesh",
+        "description": "On Reveal: +1 Power for each of your other cards in play with increased Power.",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/gilgamesh.webp?v=206",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/534_05.webp?v=206",
+        "cost": "5",
+        "power": "9"
+    },
+    {
         "id": 83,
         "card_key": "gladiator",
         "name": "Gladiator",
@@ -1016,6 +1026,16 @@
         "variant2": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/91_06.webp?v=203",
         "cost": "3",
         "power": "3"
+    },
+    {
+        "id": 278,
+        "card_key": "gwenpool",
+        "name": "Gwenpool",
+        "description": "On Reveal: Pick a random card in your hand 3 times. Give +2 Power each time.",
+        "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/gwenpool.webp?v=206",
+        "variant1": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/383_02.webp?v=206",
+        "cost": "4",
+        "power": "6"
     },
     {
         "id": 88,
